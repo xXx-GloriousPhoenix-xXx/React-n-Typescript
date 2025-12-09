@@ -1,0 +1,28 @@
+.Wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    color: var(--white);
+    font-size: 0.75em;
+    border: 0.15em solid var(--white);
+    border-radius: 1em;
+    padding: 1em;
+}
+.Wrapper h2 {
+    font-size: 1.8em;
+}
+
+.Button {
+    background-color: transparent;
+    border: 0.15em solid var(--white);
+    padding: 0.25em 1em;
+    border-radius: 1em;
+    color: var(--white);
+    transition: 250ms;
+}
+.Button:hover {
+    color: var(--red);
+    border-color: var(--red);
+    cursor: pointer;
+}

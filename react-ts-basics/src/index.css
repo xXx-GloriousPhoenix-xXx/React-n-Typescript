@@ -1,0 +1,12 @@
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    --red: rgb(219, 62, 63);
+    --gray: rgb(46, 53, 61);
+    --brown: rgb(113, 64, 23);
+    --yellow: rgb(236, 184, 53);
+    --white: rgb(254, 254, 254); 
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
