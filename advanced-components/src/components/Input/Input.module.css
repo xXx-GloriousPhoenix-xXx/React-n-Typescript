@@ -1,0 +1,17 @@
+.Wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.25em;
+}
+.Wrapper label {
+    color: var(--brightpink);
+    margin-left: 1em;
+}
+.Wrapper input {
+    padding: 0.5em 1em;
+    border: 0.15em solid var(--brightpink);
+    background-color: var(--brightpink);
+    color: var(--darkblue);
+    outline: none;
+    border-radius: 1em;
+}

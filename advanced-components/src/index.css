@@ -1,0 +1,13 @@
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+    --brightpink: #ffcbcb;
+    --darkpink: #ffb5b5;
+    --brightblue: #407088;
+    --darkblue: #132743;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}

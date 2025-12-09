@@ -1,0 +1,17 @@
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+    padding: 2em;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.5em;
+    background-color: var(--darkblue);
+    padding: 1em;
+    width: 50%;
+    border-radius: 1em;
+}
