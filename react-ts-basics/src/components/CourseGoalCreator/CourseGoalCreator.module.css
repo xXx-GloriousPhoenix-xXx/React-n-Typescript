@@ -1,0 +1,24 @@
+.Wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.Wrapper * {
+    width: 100%;
+    padding: 0.5em 1em;
+    border: 0.15em solid var(--white);
+    background-color: transparent;
+    color: var(--white);
+    outline: none;
+    transition: 250ms;
+    font-size: 1em;
+    border-radius: 1rem;
+}
+.Wrapper *:focus,
+.Wrapper *:hover {
+    border-color: var(--red);
+    cursor: pointer;
+    color: var(--red);
+}

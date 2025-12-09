@@ -1,0 +1,13 @@
+.Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.Wrapper > * {
+    flex: 1 1 calc(50% - 1em);
+}
+
+.Wrapper > *:nth-child(odd):last-child {
+    flex-basis: calc(100% - 1em);
+}

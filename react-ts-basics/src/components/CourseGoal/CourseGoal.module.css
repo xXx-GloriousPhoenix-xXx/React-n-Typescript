@@ -5,12 +5,14 @@
     align-items: start;
     color: var(--white);
     font-size: 0.75em;
-    border: 0.15em solid var(--white);
     border-radius: 1em;
     padding: 1em;
+    height: fit-content;
+    background-color: var(--lightgray);
 }
 .Wrapper h2 {
     font-size: 1.8em;
+    margin: 0.5em 0 0.2em 0;
 }
 
 .Button {

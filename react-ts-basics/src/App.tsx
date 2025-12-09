@@ -2,11 +2,11 @@ import './App.css';
 
 import { useState } from 'react';
 
-import type ICourseGoal from './components/ICourseGoal';
+import type ICourseGoal from './components/CourseGoal/ICourseGoal';
 
-import CourseGoalList from './components/CourseGoalList';
-import Header from './components/Header';
-import CourseGoalCreator from './components/CourseGoalCreator';
+import CourseGoalList from './components/CourseGoalList/CourseGoalList';
+import Header from './components/Header/Header';
+import CourseGoalCreator from './components/CourseGoalCreator/CourseGoalCreator';
 
 import headerLogo from './assets/goal.avif';
 
@@ -22,8 +22,14 @@ function App() {
         alt: "goal logo"
     }
     const [goals, setGoals] = useState<ICourseGoal[]>(initialGoals);
-    function handleAddGoal(goal: ICourseGoal) {
-        setGoals(prevGoals => [...prevGoals, goal]);
+    function handleAddGoal(title: string, description: string) {
+        const newGoal: ICourseGoal = {
+            id: Math.random().toString(),
+            title,
+            description
+        }
+
+        setGoals(prevGoals => [...prevGoals, newGoal]);
     }
     function handleDeleteGoal(id: string) {
         setGoals(prevGoals => prevGoals.filter(goal => goal.id !== id));

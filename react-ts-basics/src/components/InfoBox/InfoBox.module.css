@@ -1,0 +1,36 @@
+.InfoBox {
+    display: flex;
+    width: 100%;
+    flex-flow: column nowrap;
+    border: 0.15em solid var(--white);
+    border-radius: 1em;
+    padding: 1em;
+    color: var(--white);
+}
+.InfoBox h2 {
+    margin: 0.2em 0;
+}
+
+.InfoBoxHint {
+    color: var(--hint);
+    border-color: var(--hint);
+}
+
+.InfoBoxWarning {
+
+}
+
+.InfoBoxWarningLow {
+    color: var(--warning-low);
+    border-color: var(--warning-low);
+}
+
+.InfoBoxWarningMedium {
+    color: var(--warning-medium);
+    border-color: var(--warning-medium);
+}
+
+.InfoBoxWarningHigh {
+    color: var(--warning-high);
+    border-color: var(--warning-high);
+}

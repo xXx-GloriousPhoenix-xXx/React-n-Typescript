@@ -4,7 +4,7 @@ import type ICourseGoal from "./ICourseGoal";
 import cl from './CourseGoal.module.css';
 
 export interface ICourseGoalProps extends ICourseGoal {
-    onDelete: (id: number) => void;
+    onDelete: (id: string) => void;
 }
 
 const CourseGoal: FC<ICourseGoalProps> = ({ id, title, description, onDelete }) => {
