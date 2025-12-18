@@ -1,0 +1,10 @@
+.Wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--brightpink);
+}
+.Wrapper h1 {
+    font-size: 1.5em;
+}

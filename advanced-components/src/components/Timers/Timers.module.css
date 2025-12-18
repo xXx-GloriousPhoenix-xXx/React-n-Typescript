@@ -1,0 +1,16 @@
+.Wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    gap: 1em;
+    margin: 0;
+    width: 100%;
+}
+.Wrapper > * {
+    flex: 1 1 calc(50% - 1em);
+}
+.Wrapper > *:nth-child(odd):last-child {
+    flex-basis: calc(100% - 1em);
+}

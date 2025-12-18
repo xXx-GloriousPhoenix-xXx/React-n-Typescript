@@ -1,19 +1,22 @@
 import './App.css'
 
-import Input from './components/Input/Input.tsx';
+import Timers from './components/Timers/Timers.tsx';
+import AddTimer from './components/AddTimer';
+import Header from './components/Header/Header';
+
+import TimersContextProvider from './store/timers-context.tsx';
 
 function App() {
-    return(
-        <main>
-            <Input 
-                id="first-name" 
-                label="First Name"
-            />
-            <Input 
-                id="last-name" 
-                label="Last Name"
-            />
-        </main>
+    return (
+        <TimersContextProvider>
+            <section>
+                <Header />
+                <main>
+                    <AddTimer />
+                    <Timers />
+                </main>
+            </section>
+        </TimersContextProvider>
     );
 }
 

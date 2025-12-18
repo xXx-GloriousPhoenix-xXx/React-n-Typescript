@@ -1,17 +1,26 @@
 #root {
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     height: 100vh;
-    padding: 2em;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    background-color: var(--darkblue);
+    padding: 1em 2em;
+    border-radius: 1em;
+    flex-flow: column nowrap;
 }
 
 main {
     display: flex;
     flex-flow: column nowrap;
     gap: 0.5em;
-    background-color: var(--darkblue);
-    padding: 1em;
-    width: 50%;
-    border-radius: 1em;
+    justify-content: center;
+    align-items: center;
+
 }

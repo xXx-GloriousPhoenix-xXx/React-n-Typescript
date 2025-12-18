@@ -1,0 +1,13 @@
+.Wrapper {
+    color: var(--brightpink);
+    text-align: center;
+    background-color: var(--brightblue);
+    padding: 1em;
+    border-radius: 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.5em
+}
+.Wrapper * {
+    margin: 0;
+}

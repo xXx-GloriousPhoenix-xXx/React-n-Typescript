@@ -1,0 +1,18 @@
+.Wrapper * {
+    color: var(--brightpink);
+}
+.Wrapper button {
+    padding: 0.25em 1em;
+    border: 0.15em solid var(--brightpink);
+    background-color: transparent;
+    border-radius: 1em;
+    cursor: pointer;
+    font-size: 1em;
+    transition: 250ms;
+}
+.Wrapper *:hover {
+    color: var(--brightblue);
+}
+.Wrapper button:hover {
+    border-color: var(--brightblue);
+}
